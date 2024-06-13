@@ -1,4 +1,4 @@
-import { WxColorStylesStrict } from '../utils/wxtools';
+import { WxColorStylesStrict } from '../../utils/wxtools';
 
 export const __colorStyles_default_preset: WxColorStylesStrict = {
 	base: {
