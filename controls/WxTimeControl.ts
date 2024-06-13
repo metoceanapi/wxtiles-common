@@ -1,4 +1,4 @@
-import { WxTileSource } from '../index';
+import { WxTileSource } from '../../index';
 
 // // Leaflet
 // const timeControl = new WxTimeControl();

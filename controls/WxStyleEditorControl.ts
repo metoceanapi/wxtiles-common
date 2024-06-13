@@ -1,6 +1,6 @@
-import { WxColorStyleStrict } from '../index';
-import { WxGetColorSchemes, WxGetColorStyles } from '../index';
-import { WxColorStyleWeak } from '../index';
+import { WxColorStyleStrict } from '../../index';
+import { WxGetColorSchemes, WxGetColorStyles } from '../../index';
+import { WxColorStyleWeak } from '../../index';
 
 // // Leaflet
 // const editor = new WxStyleEditorControl();
@@ -193,8 +193,8 @@ export class WxStyleEditorControl {
 			this._onDivChange();
 		});
 
-		this.colorsInput = addInput({ id: 'colorsInput', type: 'text' }); 
-		this.colorMapInput = addInput({ id: 'colorMapInput', type: 'text' }); 
+		this.colorsInput = addInput({ id: 'colorsInput', type: 'text' });
+		this.colorMapInput = addInput({ id: 'colorMapInput', type: 'text' });
 		this.levelsInput = addInput({ id: 'levelsInput', type: 'text' }); // TODO:
 
 		this.blurRadiusInput = addInput({ id: 'blurRadiusInput', type: 'range', onEvent: 'input', min: '0', max: '10', step: '1' });

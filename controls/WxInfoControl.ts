@@ -1,4 +1,4 @@
-import { WxTileInfo, WxTileSource } from '../index';
+import { WxTileInfo, WxTileSource } from '../../index';
 
 // // Leaflet
 // const infoControl = new WxInfoControl();

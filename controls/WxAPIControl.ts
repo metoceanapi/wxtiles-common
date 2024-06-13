@@ -1,4 +1,4 @@
-import { WxAPI, WxTileInfo, WxTileSource } from '../index';
+import { WxAPI, WxTileInfo, WxTileSource } from '../../index';
 
 // // Leaflet
 // const apiControl = new WxAPIControl();

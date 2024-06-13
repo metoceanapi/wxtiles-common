@@ -1,4 +1,4 @@
-import { WxCreateLegend, type WxColorStyleStrict } from '../index';
+import { WxCreateLegend, type WxColorStyleStrict } from '../../index';
 
 // // Leaflet
 // const legendControl = new WxLegendControl();
