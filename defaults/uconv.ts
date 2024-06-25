@@ -1,4 +1,4 @@
-import { WxUnits } from '../../utils/wxtools';
+import { WxUnits } from '../utils/wxtools';
 
 export const __units_default_preset: WxUnits = {
 	comment1: ["'degC': ['K', 1, 273.15] -> degC = K * 1 + 273.15", 0],
